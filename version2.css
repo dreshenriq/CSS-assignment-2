@@ -4,9 +4,8 @@
 /* you may add to or change the body rule */
 body {
     font-family: sans-serif;
-    color: #fff;
-    background: #000;
-    margin: 0;
+    color: #000000;
+    background: #fff
 }
 
 img {
@@ -15,29 +14,26 @@ img {
 }
 
 #cougar {
-  background: #FFBD82
-  color: #000000;
+  background: #FFBD82;
 }
 
 #lion {
   background: #B26219;
-  color: #000000;
 }
 
 #tiger {
-  background: #FFD5AE
-  color: #000000;
+  background: #FFD5AE;
 }
 
 article {
   display: flex;
-  flex-direction: column;
+  padding-top: 1.5rem;
   padding-bottom: 2rem;
-  align-items: center;
+  justify-content: center;
 }
 
-img {
-  max-width: 100%;
+.photo {
+  margin-left: 1.5rem;
 }
 
 section {
@@ -45,28 +41,25 @@ section {
 }
 
 section.text {
-  background: #f0f0f0;
+  margin-left: 1.5rem;
   font-size: 14pt;
-  line-height: 2;
-  padding: 1rem 1.5rem;
-}
-
-h2 {
-  text-align: center;
+  line-height: 2rem;
+  padding: 0 1.5rem;
 }
 
 header {
-  background: #999;
   display: flex;
-  padding: 0 1rem;
+  background: #999;
+  color: #000000
+  padding: 1.5rem;
   justify-content: space-between;
 }
 
 footer {
-  background: #999;
   text-align: center;
+  background: #999;
+  color: #000000
   padding: 1rem;
-  margin: 0rem;
 }
 
 ul {
@@ -77,8 +70,10 @@ ul {
 ul li{
   background: #999;
   text-align: center;
+  text-transform: uppercase;
   padding: 1rem;
-  margin: 0rem;
+  margin: 0;
+  margin-left: 1rem
 }
 
 
